@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module2 Solution</title>
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+		
+		section {
+			border: 2px solid black;
+			box-sizing: border-box;
+			position: relative;
+			background-color: #616161;
+			display: inline-block;
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-bottom: 10px;
+			height: 200px;
+			overflow: auto;
+		}
+
+		#p1 {
+			background-color: #E4A199;
+		}
+
+		p.title {
+			float: right;
+			text-align: center;
+			border: 1px solid black;
+			margin-top: -2px;
+			margin-right: -2px;
+		}
+
+		p.body {
+			clear: right;
+			text-align: left;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		#p2 {
+			background-color: #B53737;
+		}
+
+		#p3 {
+			background-color: #EEDC82;
+		}
+
+		@media (min-width: 992px) {
+			#section1 {
+				width: 30%;
+			}
+
+			#section2 {
+				width: 30%;
+			}
+
+			#section3 {
+				width: 30%;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			#section1 {
+				width: 48%;
+			}
+
+			#section2 {
+				width: 48%;
+			}
+
+			#section3 {
+				width: 98%;
+			}
+		}
+
+		@media (max-width: 767px) {
+			#section1 {
+				width: 96%;
+			}
+
+			#section2 {
+				width: 96%;
+			}
+
+			#section3 {
+				width: 96%;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Module2 Solution</h1>
+	<section id="section1">
+		<p class="title" id="p1">section1</p>
+		<p class="body">Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in the section and section title regions. Depending on the color you choose, you may want to change the color of the text so it can be easy to read. Set a black border on both the section and section title region that is 1px thick</p>
+	</section>
+	<section id="section2">
+		<p class="title" id="p2">section2</p>
+		<p class="body">Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in the section and section title regions. Depending on the color you choose, you may want to change the color of the text so it can be easy to read. Set a black border on both the section and section title region that is 1px thick</p>
+	</section>
+	<section id="section3">
+		<p class="title" id="p3">section3</p>
+		<p class="body">Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in the section and section title regions. Depending on the color you choose, you may want to change the color of the text so it can be easy to read. Set a black border on both the section and section title region that is 1px thick</p>
+	</section>
+</body>
+</html>
